@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TruckPlan.Access\TruckPlan.Access.csproj" />
+    <ProjectReference Include="..\TruckPlan.Core\TruckPlan.Core.csproj" />
+    <ProjectReference Include="..\TruckPlan.Data\TruckPlan.Data.csproj" />
+    <ProjectReference Include="..\TruckPlan.EntityFramework\TruckPlan.EntityFramework.csproj" />
+    <ProjectReference Include="..\TruckPlan.GeoCalculationEngine\TruckPlan.GeoCalculationEngine.csproj" />
+    <ProjectReference Include="..\TruckPlan.Managers\TruckPlan.Managers.csproj" />
+  </ItemGroup>
+
+</Project>
